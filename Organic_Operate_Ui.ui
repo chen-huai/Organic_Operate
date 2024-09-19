@@ -6,15 +6,15 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>402</width>
-    <height>529</height>
+    <width>445</width>
+    <height>795</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Organic Operate</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="icon/chicon.qrc">
+   <iconset>
     <normaloff>:/ch.ico</normaloff>:/ch.ico</iconset>
   </property>
   <property name="statusTip">
@@ -24,6 +24,11 @@
    <layout class="QVBoxLayout" name="verticalLayout">
     <item>
      <widget class="QTabWidget" name="tabWidget">
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
       <property name="currentIndex">
        <number>0</number>
       </property>
@@ -32,7 +37,7 @@
         <string>Auto</string>
        </attribute>
        <layout class="QGridLayout" name="gridLayout_4">
-        <item row="1" column="0" colspan="2">
+        <item row="3" column="0" colspan="2">
          <widget class="QGroupBox" name="groupBox_2">
           <property name="font">
            <font>
@@ -47,7 +52,7 @@
             <widget class="QTextBrowser" name="textBrowser">
              <property name="font">
               <font>
-               <pointsize>10</pointsize>
+               <pointsize>9</pointsize>
               </font>
              </property>
              <property name="statusTip">
@@ -58,7 +63,7 @@
           </layout>
          </widget>
         </item>
-        <item row="0" column="0">
+        <item row="1" column="0">
          <widget class="QGroupBox" name="groupBox">
           <property name="font">
            <font>
@@ -66,27 +71,27 @@
            </font>
           </property>
           <property name="title">
-           <string>操作</string>
+           <string>Starlims操作</string>
           </property>
           <layout class="QGridLayout" name="gridLayout">
            <item row="0" column="0">
             <widget class="QPushButton" name="pushButton">
              <property name="sizePolicy">
-              <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+              <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
                <horstretch>0</horstretch>
                <verstretch>0</verstretch>
               </sizepolicy>
              </property>
              <property name="font">
               <font>
-               <pointsize>10</pointsize>
+               <pointsize>9</pointsize>
               </font>
              </property>
              <property name="statusTip">
               <string>选择Batch文件，并获取Sample ID</string>
              </property>
              <property name="text">
-              <string>选择Batch</string>
+              <string>选择Starlims Batch</string>
              </property>
             </widget>
            </item>
@@ -96,14 +101,14 @@
               <bool>true</bool>
              </property>
              <property name="sizePolicy">
-              <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+              <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
                <horstretch>0</horstretch>
                <verstretch>0</verstretch>
               </sizepolicy>
              </property>
              <property name="font">
               <font>
-               <pointsize>10</pointsize>
+               <pointsize>9</pointsize>
               </font>
              </property>
              <property name="statusTip">
@@ -120,10 +125,15 @@
               <bool>true</bool>
              </property>
              <property name="sizePolicy">
-              <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+              <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
                <horstretch>0</horstretch>
                <verstretch>0</verstretch>
               </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>9</pointsize>
+              </font>
              </property>
              <property name="statusTip">
               <string>内容为Sample ID时:可以填写；内容为Stop时:无法填写</string>
@@ -139,7 +149,7 @@
           </layout>
          </widget>
         </item>
-        <item row="0" column="1">
+        <item row="1" column="1">
          <widget class="QGroupBox" name="groupBox_3">
           <property name="font">
            <font>
@@ -153,14 +163,14 @@
            <item row="2" column="0">
             <widget class="QSpinBox" name="spinBox">
              <property name="sizePolicy">
-              <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+              <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
                <horstretch>0</horstretch>
                <verstretch>0</verstretch>
               </sizepolicy>
              </property>
              <property name="font">
               <font>
-               <pointsize>10</pointsize>
+               <pointsize>9</pointsize>
               </font>
              </property>
              <property name="statusTip">
@@ -177,14 +187,14 @@
            <item row="4" column="0">
             <widget class="QPushButton" name="pushButton_3">
              <property name="sizePolicy">
-              <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+              <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
                <horstretch>0</horstretch>
                <verstretch>0</verstretch>
               </sizepolicy>
              </property>
              <property name="font">
               <font>
-               <pointsize>10</pointsize>
+               <pointsize>9</pointsize>
               </font>
              </property>
              <property name="statusTip">
@@ -198,14 +208,14 @@
            <item row="2" column="1">
             <widget class="QSpinBox" name="spinBox_2">
              <property name="sizePolicy">
-              <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+              <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
                <horstretch>0</horstretch>
                <verstretch>0</verstretch>
               </sizepolicy>
              </property>
              <property name="font">
               <font>
-               <pointsize>10</pointsize>
+               <pointsize>9</pointsize>
               </font>
              </property>
              <property name="statusTip">
@@ -219,14 +229,14 @@
            <item row="4" column="1">
             <widget class="QPushButton" name="pushButton_2">
              <property name="sizePolicy">
-              <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+              <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
                <horstretch>0</horstretch>
                <verstretch>0</verstretch>
               </sizepolicy>
              </property>
              <property name="font">
               <font>
-               <pointsize>10</pointsize>
+               <pointsize>9</pointsize>
               </font>
              </property>
              <property name="statusTip">
@@ -243,14 +253,14 @@
               <bool>false</bool>
              </property>
              <property name="sizePolicy">
-              <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+              <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
                <horstretch>0</horstretch>
                <verstretch>0</verstretch>
               </sizepolicy>
              </property>
              <property name="font">
               <font>
-               <pointsize>10</pointsize>
+               <pointsize>9</pointsize>
               </font>
              </property>
              <property name="statusTip">
@@ -267,14 +277,14 @@
               <bool>false</bool>
              </property>
              <property name="sizePolicy">
-              <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+              <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
                <horstretch>0</horstretch>
                <verstretch>0</verstretch>
               </sizepolicy>
              </property>
              <property name="font">
               <font>
-               <pointsize>10</pointsize>
+               <pointsize>9</pointsize>
               </font>
              </property>
              <property name="text">
@@ -288,14 +298,14 @@
               <bool>false</bool>
              </property>
              <property name="sizePolicy">
-              <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+              <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
                <horstretch>0</horstretch>
                <verstretch>0</verstretch>
               </sizepolicy>
              </property>
              <property name="font">
               <font>
-               <pointsize>10</pointsize>
+               <pointsize>9</pointsize>
               </font>
              </property>
              <property name="text">
@@ -306,10 +316,15 @@
            <item row="3" column="1">
             <widget class="QDoubleSpinBox" name="doubleSpinBox">
              <property name="sizePolicy">
-              <sizepolicy hsizetype="Expanding" vsizetype="Minimum">
+              <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
                <horstretch>0</horstretch>
                <verstretch>0</verstretch>
               </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>9</pointsize>
+              </font>
              </property>
              <property name="statusTip">
               <string>自动填写速度</string>
@@ -328,6 +343,224 @@
           </layout>
          </widget>
         </item>
+        <item row="0" column="0" colspan="2">
+         <widget class="QGroupBox" name="groupBox_4">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="title">
+           <string>Tlims操作</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_6">
+           <item row="2" column="0">
+            <widget class="QCheckBox" name="checkBox">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>9</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>重复</string>
+             </property>
+             <property name="checked">
+              <bool>false</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="0">
+            <widget class="QCheckBox" name="checkBox_2">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>9</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>QC</string>
+             </property>
+             <property name="checked">
+              <bool>false</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="4">
+            <widget class="QPushButton" name="pushButton_58">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>9</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>查看数据</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="4">
+            <widget class="QPushButton" name="pushButton_57">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>9</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>导出数据</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="4">
+            <widget class="QPushButton" name="pushButton_59">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>9</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>选择 Tlims Batch</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="QCheckBox" name="checkBox_3">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>9</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>质控</string>
+             </property>
+             <property name="checked">
+              <bool>false</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="2">
+            <widget class="QSpinBox" name="spinBox_7">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>9</pointsize>
+              </font>
+             </property>
+             <property name="value">
+              <number>20</number>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="3">
+            <widget class="QLineEdit" name="lineEdit_7">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>9</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>CQC</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="2" colspan="2">
+            <widget class="QLineEdit" name="lineEdit_2">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>9</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>;A;B</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="2" colspan="2">
+            <widget class="QLineEdit" name="lineEdit_3">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>9</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>BLK;BLK-S;S-S</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
        </layout>
       </widget>
      </widget>
@@ -339,7 +572,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>402</width>
+     <width>445</width>
      <height>23</height>
     </rect>
    </property>
@@ -390,8 +623,6 @@
    </property>
   </action>
  </widget>
- <resources>
-  <include location="icon/chicon.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>
